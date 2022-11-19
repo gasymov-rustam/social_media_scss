@@ -1,0 +1,36 @@
+.btnLib {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  transition: 0.4s;
+
+  &:hover {
+    background: rgb(182, 181, 181);
+  }
+}
+
+.small {
+  width: 60px;
+}
+
+.medium {
+  width: 90px;
+}
+
+.large {
+  width: 120px;
+}
+
+.outlined {
+  border: none;
+  outline: none;
+}
+
+.fill {
+  border: 1px solid lightgray;
+}
